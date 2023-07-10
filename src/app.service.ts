@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'API de Dispensador con atributo descripcion!';
+    return 'API de Dispensador con atributo !';
   }
 }
